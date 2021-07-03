@@ -19,7 +19,6 @@
 <i class="fas fa-concierge-bell"></i>
 <i class="fas fa-question-circle"></i>
 <i class="fas fa-user-circle">Account</i>
-
 </div>
 </nav>
 </header>

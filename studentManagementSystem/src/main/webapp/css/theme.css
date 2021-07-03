@@ -5,7 +5,9 @@
 
 Author:			 Dennis Shaba
 */
-
+*, *::before, *::after {
+    box-sizing:none !important;
+}
 html{
 	
 }
@@ -60,32 +62,29 @@ main{
 	justify-content:center;
 	display:flex;
 	flex-direction:column;
+	align-items:center;
+	
 }
 .welcome h2{
 	color:#29055C;
 	font-size:36px;
+	font-family: 'Otomanopee One', sans-serif;
 }
 .login-wrapper{
-	padding:20px;
-	justify-content:center;
-	border:2px solid #ccc;
-	display:flex;
+	padding:70px 50px;
+	border-radius:5px;
+	background-color:#070D6A;
+	max-width:700px;
+	min-width:500px;
+	margin:50px;
 }
 .login-wrapper input{
-	padding:10px;
-	margin:10px;
-	border:1px solid #ccc;
-	border-radius:5px;
+	margin-left:10px;
+	max-width:300px;
 }
-
-.login-wrapper input[type="submit"]{
-	padding:10px 20px;
-	background-color:#070D6A;
+.login-wrapper p, label{
 	color:#fff;
-	cursor:pointer;
-}
-.login-wrapper input[type="submit"]:hover{
-	background-color:#0511CA ;
+	font-size:16px;
 }
 .welcome p{
 	text-align:center;
@@ -93,5 +92,31 @@ main{
 .welcome p a{
 	text-decoration:none;
 	color:#070D6A;
+}
+
+/* style for registration*/
+#reg-wrapper{
+	margin:100px 0;
+	display:flex;
+	justify-content:center;
+}
+.register-wrapper{
+	display:flex;
+	padding:50px;
+	background-color: #F5F5F5;
+	border-radius:5px;
+	max-width:700px;
+	min-width:500px;
+
+}
+.register-wrapper label{
+		color:#333;
+}
+.alt{
+	margin:10px;
+}
+.mybtn{
+	display:flex;
+	justify-content:center;
 }
 
