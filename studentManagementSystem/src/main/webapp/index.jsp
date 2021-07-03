@@ -20,17 +20,17 @@
 <h2>Welcome to IW-Student Management System</h2>
 
 <div class="login-wrapper">
-<form action="loginController" method="post">
+<form action="dashboardController" method="post">
   <div class="row mb-3">
     <label for="inputEmail3" class="col-sm-2 col-form-label">Email: </label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3">
+      <input type="email" name="email" class="form-control" id="inputEmail3" required>
     </div>
   </div>
   <div class="row mb-3">
     <label for="inputPassword3" class="col-sm-2 col-form-label">Password: </label>
     <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword3">
+      <input type="password" name="password" class="form-control" id="inputPassword3" required>
     </div>
   </div>
    
@@ -45,12 +45,13 @@
     </div>
   </div>
   <div class="mybtn"><button type="submit" name="login" class="btn btn-primary alt">Sign in</button>
-  <button type="submit" name="reg" class="btn btn-primary alt">Register</button></div>
+  <button type="button" name="reg" onclick="registerPage()" class="btn btn-primary alt">Register</button></div>
 </form>
 </div>
 <p>Developed by Dennis:<a href="https://github.com/Dinixweb" target="_blank"> My Github Account</p>
 </div>
 
 </main>
+<script type="text/javascript" src="dependency/main.js"></script>
 </body>
 </html>

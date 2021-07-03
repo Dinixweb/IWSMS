@@ -19,4 +19,33 @@
     <servlet-name>loginController</servlet-name>
     <url-pattern>/loginController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>registerController</display-name>
+    <servlet-name>registerController</servlet-name>
+    <servlet-class>com.frontend.registerController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>registerController</servlet-name>
+    <url-pattern>/registerController</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <display-name>dashoardFilter</display-name>
+    <filter-name>dashoardFilter</filter-name>
+    <filter-class>com.admin.dashoardFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>dashoardFilter</filter-name>
+    <url-pattern>/dashboardController</url-pattern>
+  </filter-mapping>
+  <servlet>
+    <description></description>
+    <display-name>dashboardController</display-name>
+    <servlet-name>dashboardController</servlet-name>
+    <servlet-class>com.admin.dashboardController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dashboardController</servlet-name>
+    <url-pattern>/dashboardController</url-pattern>
+  </servlet-mapping>
 </web-app>

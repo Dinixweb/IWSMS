@@ -96,7 +96,7 @@ main{
 
 /* style for registration*/
 #reg-wrapper{
-	margin:100px 0;
+	margin:50px 0;
 	display:flex;
 	justify-content:center;
 }
@@ -119,4 +119,9 @@ main{
 	display:flex;
 	justify-content:center;
 }
-
+textarea{
+	color:#aaa;
+}
+.g-3 h2{
+	text-align:center;
+}

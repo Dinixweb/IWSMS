@@ -12,7 +12,8 @@
 <header>
 <nav>
 <div class="logo-wrapper">
-<img src="assets/google-stadia-logo-hd4.png"/>
+Logo
+<!--<img src="assets/google-stadia-logo-hd4.png"/>-->
 </div>
 <div class="menu-icon-top">
 <i class="fas fa-cog"></i>
