@@ -10,8 +10,88 @@ html{
 	
 }
 body{
-	background-color:#ccc;
+	background-color:#fff;
+	padding:0;
+	margin:0;
 }
 h1, h2, h3, h4, h5, h6{
 	
 }
+header{
+	padding:15px;
+	background-color:#FAFAFA;
+	box-shadow: 2px 2px 5px 4px #ccc;
+	
+}
+nav{
+	display:flex;
+	justify-content:space-between;
+	padding:0 30px;
+}
+.logo-wrapper{
+	padding:0;
+	
+}
+.logo-wrapper img{
+	width:50px;
+}
+.logo-wrapper h1{
+	font-size:15px;
+}
+
+.menu-icon-top{
+	display:inline;
+	padding:10px;
+}
+.menu-icon-top .fas{
+	color:#29055C;
+	width:50px;
+}
+.menu-icon-top .fas:hover{
+	color:#074FD5;
+	cursor:pointer;
+}
+main{
+	display:flex;
+	justify-content:center;
+}
+.welcome{
+	padding:50px 20px;
+	justify-content:center;
+	display:flex;
+	flex-direction:column;
+}
+.welcome h2{
+	color:#29055C;
+	font-size:36px;
+}
+.login-wrapper{
+	padding:20px;
+	justify-content:center;
+	border:2px solid #ccc;
+	display:flex;
+}
+.login-wrapper input{
+	padding:10px;
+	margin:10px;
+	border:1px solid #ccc;
+	border-radius:5px;
+}
+
+.login-wrapper input[type="submit"]{
+	padding:10px 20px;
+	background-color:#070D6A;
+	color:#fff;
+	cursor:pointer;
+}
+.login-wrapper input[type="submit"]:hover{
+	background-color:#0511CA ;
+}
+.welcome p{
+	text-align:center;
+}
+.welcome p a{
+	text-decoration:none;
+	color:#070D6A;
+}
+
