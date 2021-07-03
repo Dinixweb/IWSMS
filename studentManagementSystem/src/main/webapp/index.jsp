@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link href="css/theme.css" rel="stylesheet"/>
 <title>WELCOME TO iW-STUDENT MANAGEMENT SYSTEM</title>
 </head>
 <body>
